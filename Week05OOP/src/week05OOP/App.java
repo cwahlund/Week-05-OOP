@@ -6,13 +6,13 @@ public class App {
 		SpacedLogger sLogger = new SpacedLogger();
 		AsteriskLogger aLogger = new AsteriskLogger();
 
-		sLogger.Log("Hello");
-		sLogger.Error("Hello");
+		sLogger.Log("Choice");
+		sLogger.Error("Choice");
 		
 		System.out.println();
 		
-		aLogger.Log("Hello");
-		aLogger.Error("Hello");
+		aLogger.Log("Choice");
+		aLogger.Error("Choice");
 	}
 
 }
